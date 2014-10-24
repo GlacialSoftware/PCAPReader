@@ -1,0 +1,18 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:treeView="http://schemas.android.com/apk/lib/pl.polidea.treeview"
+    xmlns:tools="http://schemas.android.com/tools"
+     android:id="@+id/packet_details_fragment"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" xmlns:app="http://schemas.android.com/apk/res/com.glacialsoftware.pcapreader">
+
+	<pl.polidea.treeview.TreeViewList
+	    android:id="@+id/packetTreeView"
+	    android:layout_width="fill_parent"
+	    android:layout_height="fill_parent"
+	    android:scrollbars="vertical"
+	    android:smoothScrollbar="true"
+	    android:background="@android:color/white"
+	    app:collapsible="true"
+	    app:indicator_gravity="right|center_vertical" />
+    
+</RelativeLayout>

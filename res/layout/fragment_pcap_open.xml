@@ -1,0 +1,48 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/pcap_open_fragment"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <Button
+        android:id="@+id/browserButton"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:text="@string/button_browser" 
+        android:drawableLeft="@drawable/directory_icon"
+        android:onClick="showFileExplore" />
+    
+    <View
+        android:id="@+id/blackHorizontalDivider"
+        android:layout_width="fill_parent"
+        android:layout_height="2dp"
+        android:layout_below="@+id/browserButton"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:background="@color/black"
+        android:paddingBottom="4dp"
+        android:paddingTop="4dp" />
+
+    <TextView
+        android:id="@+id/scanning"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/blackHorizontalDivider"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+		android:ellipsize="end"
+		android:maxLines="1" 
+		android:textSize="16sp" />
+
+    <ListView
+        android:id="@+id/scanListView"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/scanning" >
+    </ListView>
+
+</RelativeLayout>

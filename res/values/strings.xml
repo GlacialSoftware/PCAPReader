@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">PCAP Reader</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_licenses">Licenses</string>
+    <string name="title_activity_pcap_display">PcapDisplayActivity</string>
+    <string name="button_browser">Browse for capture</string>
+    <string name="image_file">File</string>
+    <string name="title_preferences">Preferences</string>
+    <string name="title_tilt_lock_checkbox_preference">Tilt lock</string>
+    <string name="summary_tilt_lock_checkbox_preference">Prevents orientation change</string>
+    <string name="title_licenses">Licenses</string>
+    <string name="invalid_file_dialog_dismiss">Cancel</string>
+
+</resources>

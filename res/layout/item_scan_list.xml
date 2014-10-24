@@ -1,0 +1,40 @@
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scan_list_item"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" >
+
+ <ImageView
+     android:id="@+id/fileIconImage"
+     android:contentDescription="@string/image_file"
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:layout_alignBottom="@+id/filePath"
+     android:layout_alignParentLeft="true"
+     android:layout_alignParentTop="true"
+     android:src="@drawable/file_icon" />
+
+ <TextView
+     android:id="@+id/fileName"
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:layout_alignParentTop="true"
+     android:layout_alignParentRight="true"
+     android:layout_toRightOf="@+id/fileIconImage"
+     android:ellipsize="end"
+     android:maxLines="1"
+     android:textSize="14sp" />
+
+ <TextView
+     android:id="@+id/filePath"
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:layout_alignLeft="@+id/fileName"
+     android:layout_alignParentRight="true"
+     android:layout_below="@+id/fileName"
+     android:ellipsize="end"
+     android:maxLines="1"
+     android:textSize="12sp" />
+
+</RelativeLayout>
+

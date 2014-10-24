@@ -1,0 +1,29 @@
+Android NDK: WARNING: APP_PLATFORM android-19 is larger than android:minSdkVersion 11 in ./AndroidManifest.xml    
+[armeabi] Compile++ thumb: jnetpcap <= jnetpcap.cpp
+[armeabi] Compile++ thumb: jnetpcap <= packet_flow.cpp
+[armeabi] Compile++ thumb: jnetpcap <= packet_jheader.cpp
+[armeabi] Compile++ thumb: jnetpcap <= jnetpcap_pcap_header.cpp
+[armeabi] Compile++ thumb: jnetpcap <= nio_jbuffer.cpp
+[armeabi] Compile++ thumb: jnetpcap <= winpcap_stat_ex.cpp
+[armeabi] Compile++ thumb: jnetpcap <= winpcap_send_queue.cpp
+[armeabi] Compile++ thumb: jnetpcap <= winpcap_ext.cpp
+[armeabi] Compile++ thumb: jnetpcap <= jnetpcap_ids.cpp
+[armeabi] Compile++ thumb: jnetpcap <= jnetpcap_dumper.cpp
+[armeabi] Compile++ thumb: jnetpcap <= jnetpcap_utils.cpp
+[armeabi] Compile++ thumb: jnetpcap <= util_in_cksum.cpp
+[armeabi] Compile++ thumb: jnetpcap <= jnetpcap_beta.cpp
+[armeabi] Compile++ thumb: jnetpcap <= nio_jmemory.cpp
+[armeabi] Compile++ thumb: jnetpcap <= packet_jsmall_scanner.cpp
+[armeabi] Compile++ thumb: jnetpcap <= packet_protocol.cpp
+[armeabi] Compile++ thumb: jnetpcap <= nio_jnumber.cpp
+[armeabi] Compile++ thumb: jnetpcap <= packet_jheader_scanner.cpp
+[armeabi] Compile++ thumb: jnetpcap <= library.cpp
+[armeabi] Compile++ thumb: jnetpcap <= packet_jscan.cpp
+[armeabi] Compile++ thumb: jnetpcap <= jnetpcap_pcap100.cpp
+[armeabi] Compile++ thumb: jnetpcap <= util_checksum.cpp
+[armeabi] Compile++ thumb: jnetpcap <= packet_jpacket.cpp
+[armeabi] Compile++ thumb: jnetpcap <= winpcap_ids.cpp
+[armeabi] Compile++ thumb: jnetpcap <= util_debug.cpp
+[armeabi] Compile++ thumb: jnetpcap <= jnetpcap_bpf.cpp
+[armeabi] SharedLibrary  : libjnetpcap.so
+/cygdrive/n/Downloads/android-ndk-r9d-windows-x86/android-ndk-r9d/build/core/build-binary.mk:588: recipe for target `obj/local/armeabi/libjnetpcap.so' failed

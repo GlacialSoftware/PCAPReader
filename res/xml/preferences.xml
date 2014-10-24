@@ -1,0 +1,21 @@
+<PreferenceScreen 
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    
+    <PreferenceCategory 
+    	android:title="@string/title_preferences" >
+    	
+    	<CheckBoxPreference
+    	    	android:key="tilt_lock"
+    	    	android:title="@string/title_tilt_lock_checkbox_preference"
+    	    	android:summary="@string/summary_tilt_lock_checkbox_preference"
+    	    	android:persistent="true" 
+    	    	android:enabled="true"/>
+    	
+    	<Preference 
+    	    android:key="licenses"
+    	    android:title="@string/title_licenses" />
+    	    	
+	</PreferenceCategory>
+	
+	
+</PreferenceScreen>
